@@ -65,7 +65,6 @@ public abstract class  Veiculo  {
         }
     }
 
-
     @Override
     public String toString() {
         return " seu veiculo "+ getModelo() +
@@ -74,6 +73,12 @@ public abstract class  Veiculo  {
                 " | valor "+ getValor()+
                 " | quantidade  "+ getQuantidade();
     }
+
+    public void exibirFrota(){
+    }
+
+
+
 }
 
 
